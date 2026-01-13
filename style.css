@@ -31,13 +31,13 @@ html,body{background:var(--bg)}
   inset:0;
   pointer-events:none;
   z-index:0;
-  /* Reduce opacity of background watermark for a cleaner look */
-  /* Further reduce watermark opacity for a cleaner appearance */
-  opacity:.015;
+  /* Further reduce watermark opacity for an even cleaner appearance */
+  opacity:.005;
+  /* Lighten the radial gradients so they don't compete with content */
   background-image:
-    radial-gradient(circle at 20% 20%, rgba(247,201,72,.55), transparent 40%),
-    radial-gradient(circle at 80% 30%, rgba(247,201,72,.35), transparent 35%),
-    radial-gradient(circle at 50% 80%, rgba(247,201,72,.25), transparent 40%);
+    radial-gradient(circle at 20% 20%, rgba(247,201,72,.25), transparent 40%),
+    radial-gradient(circle at 80% 30%, rgba(247,201,72,.15), transparent 35%),
+    radial-gradient(circle at 50% 80%, rgba(247,201,72,.1), transparent 40%);
 }
 .wm::after{
   content:"Ayed Academy • STEP 2026 Courses";
@@ -50,7 +50,7 @@ html,body{background:var(--bg)}
   font-size: clamp(22px, 6vw, 64px);
   color:white;
   /* Make watermark text even more subtle */
-  opacity:.05;
+  opacity:.02;
   white-space:nowrap;
 }
 
@@ -58,8 +58,8 @@ html,body{background:var(--bg)}
 .grid-bg{
   /* Lighten the grid lines further to avoid distracting the content */
   background-image:
-    linear-gradient(to right, rgba(0,0,0,.02) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(0,0,0,.02) 1px, transparent 1px);
+    linear-gradient(to right, rgba(0,0,0,.01) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,.01) 1px, transparent 1px);
   background-size: 40px 40px;
   background-position: center;
   mask-image: radial-gradient(circle at 50% 20%, black 30%, transparent 70%);
