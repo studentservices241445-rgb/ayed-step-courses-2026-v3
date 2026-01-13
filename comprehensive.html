@@ -49,11 +49,9 @@
           </div>
         </div>
         <nav class="hidden lg:flex items-center gap-1 text-sm">
+          <!-- Simplified navigation for comprehensive page -->
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="index.html">الرئيسية</a>
-          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#about">عن الدورة</a>
-          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#includes">المحتوى</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#pricing">السعر والدفع</a>
-          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#register">نموذج التسجيل</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="intensive.html">الدورة المكثفة</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="level-test.html">اختبار المستوى</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="referral.html">برنامج الإحالة</a>
@@ -71,15 +69,13 @@
       <div id="mobileMenu" class="lg:hidden hidden border-t border-white/10">
         <div class="max-w-6xl mx-auto px-4 py-3 grid gap-2 text-sm">
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="index.html">الرئيسية</a>
-          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#about">عن الدورة</a>
-          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#includes">المحتوى</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#pricing">السعر والدفع</a>
-          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#register">نموذج التسجيل</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="intensive.html">الدورة المكثفة</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="level-test.html">اختبار المستوى</a>
           <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="referral.html">برنامج الإحالة</a>
           <div class="pt-2 flex gap-2">
-            <a href="#register" class="flex-1 text-center px-3 py-2 rounded-xl bg-[var(--yellow)] text-black font-extrabold">سجّل الآن</a>
+            <!-- Mobile CTA scrolls to pricing -->
+            <a href="#pricing" class="flex-1 text-center px-3 py-2 rounded-xl bg-[var(--yellow)] text-black font-extrabold">سجّل الآن</a>
           </div>
         </div>
       </div>
@@ -123,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-[#111]/80 border border-white/10 rounded-3xl p-6">
+          <div id="pricing" class="bg-[#111]/80 border border-white/10 rounded-3xl p-6">
             <div class="flex items-center justify-between gap-3">
               <div>
                 <div class="text-sm text-white/70">السعر الحالي</div>
@@ -159,9 +155,10 @@
                 </div>
               </div>
             </div>
-            <div class="mt-6 flex flex-col sm:flex-row gap-3">
+            <!-- CTA container with register anchor; both buttons scroll to pricing -->
+            <div id="register" class="mt-6 flex flex-col sm:flex-row gap-3">
               <a href="#pricing" class="flex-1 px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 transition text-center font-bold">شوف طريقة الدفع</a>
-              <a href="#register" class="flex-1 px-4 py-3 rounded-2xl bg-[var(--yellow)] text-black font-extrabold text-center hover:opacity-90 transition">ابدأ التسجيل</a>
+              <a href="#pricing" class="flex-1 px-4 py-3 rounded-2xl bg-[var(--yellow)] text-black font-extrabold text-center hover:opacity-90 transition">ابدأ التسجيل</a>
             </div>
             <div class="mt-4 text-xs text-white/55 leading-relaxed">
               ملاحظة: دخول القنوات الخاصة بالدورة يتم بعد <span class="text-white/80 font-semibold">تأكيد الإيصال</span> من الحساب الرسمي.
