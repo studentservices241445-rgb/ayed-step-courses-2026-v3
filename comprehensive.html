@@ -1,0 +1,185 @@
+<!--
+  Page for the comprehensive STEP course.  Highlights the lifetime access and lower price.
+-->
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0B0B0B" />
+  <title>أكاديمية عايد | دورة STEP الشاملة 2026 — التسجيل الرسمي</title>
+  <meta name="description" content="تفاصيل دورة STEP الشاملة لعام 2026 من أكاديمية عايد — محتوى تفاعلي شامل، تسجيل مدى الحياة، تدريبات ومصادر إضافية، ونموذج تسجيل رسمي بإرفاق الإيصال." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body class="text-white antialiased">
+  <div class="wm"></div>
+  <!-- Announcement bar -->
+  <div class="relative z-50">
+    <div class="bg-[#0f0f0f] border-b border-white/10">
+      <div class="max-w-6xl mx-auto px-4 py-2 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+        <div class="text-sm text-white/90">
+          🚨 <span class="text-[var(--yellow)] font-bold">السعر الحالي للدورة الشاملة (شامل الضريبة):</span>
+          <span class="font-semibold">359 ريال</span>
+          <span class="text-white/70">بدل</span>
+          <span class="line-through text-white/60">449 ريال</span>
+          <span class="text-white/70">— عرض لفترة محدودة، السعر يشمل الضريبة.</span>
+        </div>
+        <div class="flex items-center gap-2 text-sm">
+          <a href="#register" class="px-3 py-1.5 rounded-full bg-[var(--yellow)] text-black font-bold hover:opacity-90 transition">
+            سجّل الآن
+          </a>
+          <a href="https://t.me/Ayed_Academy_2026" target="_blank" rel="noopener" class="px-3 py-1.5 rounded-full border border-white/15 hover:border-white/25 transition text-white/90">
+            تواصل مع الحساب الرسمي
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-[#0b0b0b]/85 backdrop-blur border-b border-white/10">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+        <div class="flex items-center gap-3 min-w-0">
+          <div class="w-10 h-10 rounded-2xl bg-[var(--yellow)]/15 border border-[var(--yellow)]/35 grid place-items-center">
+            <span class="font-extrabold text-[var(--yellow)]">A</span>
+          </div>
+          <div class="min-w-0">
+            <div class="font-extrabold leading-tight truncate">أكاديمية عايد</div>
+            <div class="text-xs text-white/60 truncate">STEP الشاملة 2026 — التسجيل الرسمي</div>
+          </div>
+        </div>
+        <nav class="hidden lg:flex items-center gap-1 text-sm">
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="index.html">الرئيسية</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#about">عن الدورة</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#includes">المحتوى</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#pricing">السعر والدفع</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#register">نموذج التسجيل</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="intensive.html">الدورة المكثفة</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="level-test.html">اختبار المستوى</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="referral.html">برنامج الإحالة</a>
+        </nav>
+        <div class="flex items-center gap-2">
+          <button id="menuBtn" class="lg:hidden px-3 py-2 rounded-xl border border-white/15 hover:border-white/25 transition text-white/90">
+            ☰
+          </button>
+          <a href="#register" class="hidden sm:inline-flex px-3 py-2 rounded-xl bg-[var(--yellow)] text-black font-extrabold hover:opacity-90 transition">
+            ابدأ التسجيل
+          </a>
+        </div>
+      </div>
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="lg:hidden hidden border-t border-white/10">
+        <div class="max-w-6xl mx-auto px-4 py-3 grid gap-2 text-sm">
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="index.html">الرئيسية</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#about">عن الدورة</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#includes">المحتوى</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#pricing">السعر والدفع</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#register">نموذج التسجيل</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="intensive.html">الدورة المكثفة</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="level-test.html">اختبار المستوى</a>
+          <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="referral.html">برنامج الإحالة</a>
+          <div class="pt-2 flex gap-2">
+            <a href="#register" class="flex-1 text-center px-3 py-2 rounded-xl bg-[var(--yellow)] text-black font-extrabold">سجّل الآن</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <!-- Hero section -->
+  <main class="relative z-10">
+    <section class="grid-bg">
+      <div class="max-w-6xl mx-auto px-4 pt-10 pb-10">
+        <div class="grid lg:grid-cols-2 gap-8 items-center">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/10 bg-white/5 text-sm text-white/80">
+              <span class="pulse-dot"></span>
+              تسجيل رسمي — دفع بتحويل بنكي + نموذج بإرفاق الإيصال
+            </div>
+            <h1 class="mt-4 text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+              دورة <span class="text-[var(--yellow)]">STEP الشاملة 2026</span><br />
+              محتوى متكامل… واشتراك مدى الحياة ✅
+            </h1>
+            <p class="mt-4 text-white/75 leading-relaxed">
+              نقدم لك مسارًا شاملاً يغطي جميع أساسيات STEP مع تدريبات متدرجة وتحديثات مستمرة على المحتوى. مناسب لمن يرغب ببناء أساس قوي والاستفادة من المحتوى مدى الحياة.
+            </p>
+            <div class="mt-6 flex flex-col sm:flex-row gap-3">
+              <a href="#register" class="px-4 py-3 rounded-2xl bg-[var(--yellow)] text-black font-extrabold text-center hover:opacity-90 transition">✅ ابدأ التسجيل الآن</a>
+              <a href="#pricing" class="px-4 py-3 rounded-2xl border border-white/15 text-white/90 text-center hover:border-white/25 transition">💳 شوف تفاصيل الدفع</a>
+              <a href="https://t.me/Academy_Ayed_2026" target="_blank" rel="noopener" class="px-4 py-3 rounded-2xl border border-white/15 text-white/90 text-center hover:border-white/25 transition">📢 قروب التنبيهات الرسمي</a>
+            </div>
+            <!-- Quick notes -->
+            <div class="mt-7 grid sm:grid-cols-3 gap-3">
+              <div class="p-4 rounded-2xl bg-[#111]/70 border border-white/10">
+                <div class="text-sm text-white/70">📚 الوصول للمحتوى</div>
+                <div class="text-lg font-extrabold mt-1">مدى الحياة</div>
+              </div>
+              <div class="p-4 rounded-2xl bg-[#111]/70 border border-white/10">
+                <div class="text-sm text-white/70">📌 مناسب لـ</div>
+                <div class="text-lg font-extrabold mt-1">تعلم متدرج</div>
+              </div>
+              <div class="p-4 rounded-2xl bg-[#111]/70 border border-white/10">
+                <div class="text-sm text-white/70">🧑‍💻 دعم</div>
+                <div class="text-lg font-extrabold mt-1">دعم فني</div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-[#111]/80 border border-white/10 rounded-3xl p-6">
+            <div class="flex items-center justify-between gap-3">
+              <div>
+                <div class="text-sm text-white/70">السعر الحالي</div>
+                <div class="text-3xl font-extrabold mt-1">
+                  359 <span class="text-base font-bold text-white/70">ريال</span>
+                </div>
+                <div class="text-sm text-white/60 mt-1">السعر الرسمي 449 ريال.</div>
+              </div>
+              <div class="w-16 h-16 rounded-2xl bg-[var(--yellow)]/15 border border-[var(--yellow)]/30 grid place-items-center">
+                <span class="text-2xl">✨</span>
+              </div>
+            </div>
+            <div class="mt-6 space-y-3">
+              <div class="flex items-start gap-3">
+                <div class="mt-1 text-[var(--yellow)]">✔</div>
+                <div>
+                  <div class="font-bold">محتوى تفاعلي وتأسيسي</div>
+                  <div class="text-sm text-white/65">شرح مفصل لكل مهارة مع تدريبات متنوعة.</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="mt-1 text-[var(--yellow)]">✔</div>
+                <div>
+                  <div class="font-bold">تسجيل مدى الحياة</div>
+                  <div class="text-sm text-white/65">ادخل متى ما شئت واستفد من التحديثات المستمرة.</div>
+                </div>
+              </div>
+              <div class="flex items-start gap-3">
+                <div class="mt-1 text-[var(--yellow)]">✔</div>
+                <div>
+                  <div class="font-bold">مصادر إضافية</div>
+                  <div class="text-sm text-white/65">ملفات PDF ونماذج وتوصيات تساعدك على التعمق.</div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 flex flex-col sm:flex-row gap-3">
+              <a href="#pricing" class="flex-1 px-4 py-3 rounded-2xl bg-white/5 border border-white/10 hover:border-white/20 transition text-center font-bold">شوف طريقة الدفع</a>
+              <a href="#register" class="flex-1 px-4 py-3 rounded-2xl bg-[var(--yellow)] text-black font-extrabold text-center hover:opacity-90 transition">ابدأ التسجيل</a>
+            </div>
+            <div class="mt-4 text-xs text-white/55 leading-relaxed">
+              ملاحظة: دخول القنوات الخاصة بالدورة يتم بعد <span class="text-white/80 font-semibold">تأكيد الإيصال</span> من الحساب الرسمي.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Simplified about/included/pricing/registration sections can be added here similar to the intensive page -->
+  </main>
+  <!-- Toast container -->
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+  <script>
+    // Override course-specific constants
+    window.COURSE_NAME = 'دورة STEP الشاملة 2026 (أكاديمية عايد الرسمية)';
+    window.COURSE_PRICE = '359';
+    window.ACCESS_DAYS = 'مدى الحياة';
+  </script>
+</body>
+</html>

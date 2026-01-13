@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0B0B0B" />
+  <title>أكاديمية عايد | دورات STEP 2026 — الرئيسية</title>
+  <meta name="description" content="منصة أكاديمية عايد لدورات STEP المكثفة والشاملة لعام 2026. استكشف الدورات، تعرّف على الأسباب للانضمام، وشاهد إنجازاتنا وآراء طلابنا." />
+
+  <!-- Tailwind CDN for quick styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Override Tailwind defaults for fonts */
+    body { font-family: 'Tajawal', sans-serif; }
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap');
+  </style>
+</head>
+
+<body class="text-white antialiased">
+  <!-- Watermark -->
+  <div class="wm"></div>
+
+  <!-- Top banner with discount info and quick links -->
+  <div class="bg-[#0f0f0f] border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-2 flex flex-col sm:flex-row gap-2 sm:items-center sm:justify-between">
+      <div class="text-sm text-white/90">
+        🚨 <span class="text-[var(--yellow)] font-bold">خصم التسجيل الحالي:</span>
+        <span class="font-semibold">299 ريال</span>
+        <span class="text-white/70">بدل</span>
+        <span class="line-through text-white/60">449 ريال</span>
+        <span class="text-white/70">— ينتهي في</span>
+        <span class="font-semibold">29/01/2026</span>
+      </div>
+      <div class="flex items-center gap-2 text-sm">
+        <a href="#courses" class="px-3 py-1.5 rounded-full bg-[var(--yellow)] text-black font-bold hover:opacity-90 transition">
+          استعرض الدورات
+        </a>
+        <a href="intensive.html#register" class="px-3 py-1.5 rounded-full border border-white/15 hover:border-white/25 transition text-white/90">
+          سجّل مباشرة
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-[#0b0b0b]/85 backdrop-blur border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-3">
+      <div class="flex items-center gap-3 min-w-0">
+        <div class="w-10 h-10 rounded-2xl bg-[var(--yellow)]/15 border border-[var(--yellow)]/35 grid place-items-center">
+          <span class="font-extrabold text-[var(--yellow)]">A</span>
+        </div>
+        <div class="min-w-0">
+          <div class="font-extrabold leading-tight truncate">أكاديمية عايد</div>
+          <div class="text-xs text-white/60 truncate">دورات STEP 2026 المكثفة والشاملة</div>
+        </div>
+      </div>
+      <nav class="hidden lg:flex items-center gap-1 text-sm">
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#why">لماذا STEP؟</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#achieve">إنجازاتنا</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#courses">الدورات</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#compare">المقارنة</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#testimonials">الآراء</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#policies">السياسات</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="level-test.html">اختبار المستوى</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="referral.html">برنامج الإحالة</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <button id="menuBtn" class="lg:hidden px-3 py-2 rounded-xl border border-white/15 hover:border-white/25 transition text-white/90">
+          ☰
+        </button>
+        <a href="intensive.html#register" class="hidden sm:inline-flex px-3 py-2 rounded-xl bg-[var(--yellow)] text-black font-extrabold hover:opacity-90 transition">
+          سجّل الآن
+        </a>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="lg:hidden hidden border-t border-white/10">
+      <div class="max-w-6xl mx-auto px-4 py-3 grid gap-2 text-sm">
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#why">لماذا STEP؟</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#achieve">إنجازاتنا</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#courses">الدورات</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#compare">المقارنة</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#testimonials">الآراء</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="#policies">السياسات</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="level-test.html">اختبار المستوى</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/5 text-white/80" href="referral.html">برنامج الإحالة</a>
+        <div class="pt-2 flex gap-2">
+          <a href="intensive.html#register" class="flex-1 text-center px-3 py-2 rounded-xl bg-[var(--yellow)] text-black font-extrabold">سجّل الآن</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="relative z-10">
+    <!-- Hero Section -->
+    <section class="grid-bg">
+      <div class="max-w-6xl mx-auto px-4 pt-10 pb-12 grid lg:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+            دورات <span class="text-[var(--yellow)]">STEP</span> المكثفة والشاملة 2026
+          </h1>
+          <p class="mt-4 text-white/75 leading-relaxed">
+            نوفر لك مسارين متكاملين لتهيئة اختبار STEP: مسار مكثف لمن لديه وقت قصير، ومسار شامل لمن يرغب بخطة عميقة مدى الحياة. كل المسارات مصممة بمعايير أكاديمية عالية لضمان أفضل نتيجة.
+          </p>
+          <div class="mt-6 flex flex-col sm:flex-row gap-3">
+            <a href="intensive.html" class="px-4 py-3 rounded-2xl bg-[var(--yellow)] text-black font-extrabold text-center hover:opacity-90 transition">الدورة المكثفة</a>
+            <a href="comprehensive.html" class="px-4 py-3 rounded-2xl border border-white/15 text-white/90 text-center hover:border-white/25 transition">الدورة الشاملة</a>
+          </div>
+        </div>
+        <div class="hidden lg:block">
+          <img src="hero.png" alt="تعلم وتطوير" class="w-full rounded-2xl shadow-lg border border-white/10" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Why join STEP -->
+    <section id="why" class="max-w-6xl mx-auto px-4 py-12">
+      <h2 class="text-2xl font-extrabold mb-4">لماذا يجب أن تشترك في دورة STEP؟</h2>
+      <div class="grid md:grid-cols-3 gap-6 text-white/80 text-sm">
+        <div class="p-5 rounded-2xl bg-black/40 border border-white/10">
+          <div class="font-extrabold text-lg mb-2">محتوى مركز</div>
+          <p>نختصر لك الكتب والتجميعات في دروس مسجلة ونماذج عملية حتى تكتسب المهارات الأساسية بسرعة.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-black/40 border border-white/10">
+          <div class="font-extrabold text-lg mb-2">تدريب عملي</div>
+          <p>نقدّم اختبارات محاكاة ونماذج حقيقية مع حلول تفصيلية لتكون مستعدًا لأي سؤال.</p>
+        </div>
+        <div class="p-5 rounded-2xl bg-black/40 border border-white/10">
+          <div class="font-extrabold text-lg mb-2">دعم واستشارات</div>
+          <p>فريقنا متاح للإجابة على استفساراتك وتوجيهك في خطة المذاكرة الأنسب لك.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements section -->
+    <section id="achieve" class="max-w-6xl mx-auto px-4 pb-12">
+      <h2 class="text-2xl font-extrabold mb-4">أهم إنجازاتنا</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl bg-black/40 border border-white/10 text-center">
+          <div class="text-4xl font-extrabold text-[var(--yellow)]">95%</div>
+          <div class="mt-2 text-sm text-white/70">نسبة رضا الطلاب</div>
+        </div>
+        <div class="p-6 rounded-2xl bg-black/40 border border-white/10 text-center">
+          <div class="text-4xl font-extrabold text-[var(--yellow)]">5000+</div>
+          <div class="mt-2 text-sm text-white/70">عدد المتدربين</div>
+        </div>
+        <div class="p-6 rounded-2xl bg-black/40 border border-white/10 text-center">
+          <div class="text-4xl font-extrabold text-[var(--yellow)]">2025</div>
+          <div class="mt-2 text-sm text-white/70">سنة الإنجاز</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses overview -->
+    <section id="courses" class="max-w-6xl mx-auto px-4 pb-12">
+      <h2 class="text-2xl font-extrabold mb-4">الدورات المتاحة</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- Intensive Course Card -->
+        <div class="p-6 rounded-2xl bg-[#111]/80 border border-white/10 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between">
+              <h3 class="text-xl font-extrabold">الدورة المكثفة</h3>
+              <span class="px-2 py-1 rounded-full bg-white/10 text-xs text-white/70">خصم حالي</span>
+            </div>
+            <p class="mt-2 text-sm text-white/70">خطة سريعة ونتائج ملموسة خلال 90 يوم. السعر المخفّض 299 ريال حتى 29/01/2026.</p>
+            <ul class="mt-4 text-sm text-white/80 space-y-1">
+              <li>✔ محتوى مسجل + تطبيق عملي</li>
+              <li>✔ خطة مذاكرة 7/14/30 يوم</li>
+              <li>✔ نماذج محاكاة متكررة</li>
+            </ul>
+          </div>
+          <a href="intensive.html" class="mt-5 inline-block px-4 py-2 rounded-2xl bg-[var(--yellow)] text-black font-extrabold text-center hover:opacity-90 transition">التفاصيل والتسجيل</a>
+        </div>
+        <!-- Comprehensive Course Card -->
+        <div class="p-6 rounded-2xl bg-[#111]/80 border border-white/10 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between">
+              <h3 class="text-xl font-extrabold">الدورة الشاملة</h3>
+              <span class="px-2 py-1 rounded-full bg-white/10 text-xs text-white/70">خصم حالي</span>
+            </div>
+            <p class="mt-2 text-sm text-white/70">منهج متكامل وشامل لجميع مهارات STEP مع تحديثات مستمرة ومتجددة. السعر المخفّض 359 ريال (مدى الحياة).</p>
+            <ul class="mt-4 text-sm text-white/80 space-y-1">
+              <li>✔ محتوى تفاعلي وتأسيسي</li>
+              <li>✔ تسجيل مدى الحياة</li>
+              <li>✔ نماذج ومصادر إضافية</li>
+            </ul>
+          </div>
+          <a href="comprehensive.html" class="mt-5 inline-block px-4 py-2 rounded-2xl bg-[var(--yellow)] text-black font-extrabold text-center hover:opacity-90 transition">التفاصيل والتسجيل</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comparison -->
+    <section id="compare" class="max-w-6xl mx-auto px-4 pb-12">
+      <h2 class="text-2xl font-extrabold mb-4">مقارنة بين الدورتين</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full text-sm text-center border-collapse border border-white/10">
+          <thead>
+            <tr class="bg-black/50">
+              <th class="p-3 border border-white/10">العنصر</th>
+              <th class="p-3 border border-white/10">المكثفة</th>
+              <th class="p-3 border border-white/10">الشاملة</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="p-3 border border-white/10">السعر المخفّض</td>
+              <td class="p-3 border border-white/10">299 ريال</td>
+              <td class="p-3 border border-white/10">359 ريال</td>
+            </tr>
+            <tr class="bg-black/40">
+              <td class="p-3 border border-white/10">مدة الوصول للمحتوى</td>
+              <td class="p-3 border border-white/10">90 يوم</td>
+              <td class="p-3 border border-white/10">مدى الحياة</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-white/10">كمية المحتوى</td>
+              <td class="p-3 border border-white/10">مركّز وسريع</td>
+              <td class="p-3 border border-white/10">شامل ومفصّل</td>
+            </tr>
+            <tr class="bg-black/40">
+              <td class="p-3 border border-white/10">خطط المذاكرة</td>
+              <td class="p-3 border border-white/10">7/14/30 يوم</td>
+              <td class="p-3 border border-white/10">شهرين وأكثر</td>
+            </tr>
+            <tr>
+              <td class="p-3 border border-white/10">تحديثات المحتوى</td>
+              <td class="p-3 border border-white/10">حسب الحاجة</td>
+              <td class="p-3 border border-white/10">مستمرة</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="max-w-6xl mx-auto px-4 pb-12">
+      <h2 class="text-2xl font-extrabold mb-4">آراء عملاء أكاديمية عايد</h2>
+      <div class="grid md:grid-cols-3 gap-4 text-sm">
+        <div class="p-5 rounded-2xl bg-black/40 border border-white/10">
+          <div class="font-extrabold">ريم</div>
+          <div class="text-white/70 mt-2">“ترتيب المحتوى خلاني أمشي بثقة… وارتفع مستواي بسرعة.”</div>
+          <div class="text-xs text-white/55 mt-3">📈 +12 درجة</div>
+        </div>
+        <div class="p-5 rounded-2xl bg-black/40 border border-white/10">
+          <div class="font-extrabold">عبدالله</div>
+          <div class="text-white/70 mt-2">“الدعم كان سريع، وتدريب النماذج فرق معي.”</div>
+          <div class="text-xs text-white/55 mt-3">📈 +10 درجات</div>
+        </div>
+        <div class="p-5 rounded-2xl bg-black/40 border border-white/10">
+          <div class="font-extrabold">سارة</div>
+          <div class="text-white/70 mt-2">“كل يوم أعرف وش أسوي… بدون توتر.”</div>
+          <div class="text-xs text-white/55 mt-3">📈 +15 درجة</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Policies -->
+    <section id="policies" class="max-w-6xl mx-auto px-4 pb-12">
+      <h2 class="text-2xl font-extrabold mb-4">السياسات</h2>
+      <div class="grid sm:grid-cols-2 gap-6 text-sm text-white/80">
+        <div class="p-6 rounded-2xl bg-black/40 border border-white/10">
+          <h3 class="font-extrabold text-lg mb-2">سياسة الخصوصية</h3>
+          <p>نضمن لك سرية معلوماتك وعدم مشاركتها مع أي طرف ثالث. اقرأ المزيد في صفحتنا المخصصة.</p>
+          <a href="privacy.html" class="mt-3 inline-block text-[var(--yellow)] font-bold hover:underline">اقرأ السياسة كاملة</a>
+        </div>
+        <div class="p-6 rounded-2xl bg-black/40 border border-white/10">
+          <h3 class="font-extrabold text-lg mb-2">سياسة الاستبدال والاسترجاع</h3>
+          <p>نضع مصلحة الطلاب أولاً، ونتفهم الحالات التي تستدعي استرجاع أو استبدال. طالع الشروط والتفاصيل.</p>
+          <a href="return.html" class="mt-3 inline-block text-[var(--yellow)] font-bold hover:underline">اطلع على السياسة</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10">
+    <div class="max-w-6xl mx-auto px-4 py-8 flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
+      <div class="text-sm text-white/60">© 2026 أكاديمية عايد — جميع الحقوق محفوظة</div>
+      <div class="text-sm text-white/60 flex gap-4">
+        <a class="hover:text-white" href="#courses">الدورات</a>
+        <a class="hover:text-white" href="intensive.html">الدورة المكثفة</a>
+        <a class="hover:text-white" href="comprehensive.html">الدورة الشاملة</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast container for notifications -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script>
+    // Scroll offset for sticky header (already handled by CSS scroll-margin)
+  </script>
+</body>
+</html>
